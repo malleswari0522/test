@@ -6,8 +6,7 @@
 <%  
 boolean status=LoginDao.validate(u);  
 if(status){  
-out.println("You r successfully logged in"); 
-out.println("hii"); 
+out.println("You r successfully logged in::"); 
 
 session.setAttribute("session","TRUE");  
 }  
